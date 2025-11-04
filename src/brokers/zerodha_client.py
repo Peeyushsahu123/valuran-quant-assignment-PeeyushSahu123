@@ -1,4 +1,4 @@
-# Zerodha Kite adapter stub. For the assignment we provide a mock implementation using CSV files.
+# Zerodha Kite adapter stub. For the assignment i provide a mock implementation using CSV files.
 class ZerodhaClient:
     def __init__(self, cfg):
         self.cfg = cfg
