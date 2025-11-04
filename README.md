@@ -1,6 +1,6 @@
 # Valuran Quant Assignment — Track A (Full-Stack Quant)
 
-This repository contains a full implementation scaffold for the Valuran multi-asset, multi-timeframe quantitative portfolio system (Track A). It includes:
+my repository contains a full implementation scaffold for the Valuran multi-asset, multi-timeframe quantitative portfolio system (Track A). It includes:
 
 - Event-driven engine
 - Multi-timeframe DataHandler
@@ -10,7 +10,7 @@ This repository contains a full implementation scaffold for the Valuran multi-as
 - Logging and results generator
 - HPT (Optuna) and WFO example scripts
 
-## Quick start
+##  start
 
 1. Create virtualenv and install dependencies:
 
@@ -43,4 +43,4 @@ python src/utils/results_generator.py --sandbox results/logs/sandbox_summary.jso
 ## Deliverables
 - `results/results.json`
 - `report.pdf` (rendered from `docs/report_outline.md`)
-- Clean commit history and instructions in `README.md`
+
