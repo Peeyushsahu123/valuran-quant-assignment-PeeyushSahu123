@@ -20,7 +20,7 @@ def main():
     with open(args.config) as f:
         cfg = yaml.safe_load(f)
 
-    # Create components
+    # Created components
     dh = DataHandler(cfg.get('data', {}))
     exec_sim = ExecutionSimulator(cfg.get('execution', {}))
     portfolio = PortfolioManager(cfg.get('portfolio', {}), exec_sim)
