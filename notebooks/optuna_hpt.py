@@ -3,7 +3,7 @@ This is a template — adapt the `objective` to run your backtest function.
 """
 import optuna
 
-# placeholder backtest function — implement to call your backtester and return metric
+# placeholder backtest function — implement to call backtester and return metric
 def run_backtest_with_params(params):
     # run backtest and return final portfolio sharpe or total pnl
     return params['lookback'] * 0.1  # dummy
