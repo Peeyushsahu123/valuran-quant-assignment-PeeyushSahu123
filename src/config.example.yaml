@@ -1,0 +1,33 @@
+data:
+  symbols: ['BTC/USDT', 'ETH/USDT']
+execution:
+  dummy: true
+portfolio:
+  starting_cash: 100000.0
+  alpha_configs:
+    - module: src.alphas.alpha_1_pairs
+      class: PairsAlpha
+      params:
+        window: 24
+        pair: ['BTC/USDT','ETH/USDT']
+    - module: src.alphas.alpha_2_breakout
+      class: BreakoutAlpha
+      params:
+        lookback: 20
+        symbol: 'BTC/USDT'
+    - module: src.alphas.alpha_3_mtf
+      class: MTFAlpha
+      params:
+        symbol: 'ETH/USDT'
+        short: 14
+        long: 14
+    - module: src.alphas.alpha_4_multi_asset
+      class: MultiAssetAlpha
+      params:
+        symbols: ['NIFTY','GOLD']
+        lookback: 10
+    - module: src.alphas.alpha_5_orderbook
+      class: OrderbookAlpha
+      params:
+        symbol: 'BTC/USDT'
+        threshold: 0.6

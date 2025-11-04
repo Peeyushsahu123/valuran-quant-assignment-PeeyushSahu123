@@ -1,0 +1,171 @@
+{
+  "total_trades": 18,
+  "cash": 647665.5592095954,
+  "positions": {
+    "BTC/USDT": -18.0
+  },
+  "trades": [
+    {
+      "timestamp": 1672534560000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30276.73390663561,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672535100000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30294.32516142427,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672535460000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30373.03634867959,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672536120000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30340.066729699312,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672536180000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30421.242402537107,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672536420000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30408.580807384067,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672538220000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30403.05686453394,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672538280000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30438.67790952432,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672538340000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30385.48226520869,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672539180000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30425.41569003382,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672539480000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30386.073409502478,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672539720000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30422.41651100059,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672539780000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30496.828841139275,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672539900000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30485.122507774344,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672540920000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30500.37590695594,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672541640000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30535.9344377382,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672542000000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30541.398561389276,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    },
+    {
+      "timestamp": 1672542600000,
+      "symbol": "BTC/USDT",
+      "qty": 1.0,
+      "price": 30530.790948434715,
+      "side": "SELL",
+      "fee": 0.0,
+      "exec_info": "simulated"
+    }
+  ]
+}

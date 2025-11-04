@@ -1,0 +1,15 @@
+pandas>=1.5
+numpy
+pyyaml
+ccxt
+ib_insync
+pyarrow
+fastparquet
+quantstats
+matplotlib
+optuna
+scipy
+statsmodels
+tqdm
+sklearn
+pytest
