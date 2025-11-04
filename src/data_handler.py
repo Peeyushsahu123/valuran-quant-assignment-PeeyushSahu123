@@ -1,6 +1,5 @@
 """Multi-symbol, multi-timeframe data handler.
-Provides stream_demo(), stream_from_file(), and a simple live-socket placeholder which can be connected to a broker adapter.
-All timestamps are returned as UTC epoch milliseconds (int).
+
 """
 import pandas as pd
 import numpy as np
@@ -10,7 +9,7 @@ class DataHandler:
     def __init__(self, cfg):
         self.cfg = cfg or {}
         self.timezone = pytz.UTC
-        # default symbols if not provided
+        
         self.symbols = self.cfg.get('symbols', ['BTC/USDT','ETH/USDT'])
 
     def stream_demo(self):
@@ -30,7 +29,7 @@ class DataHandler:
             df = pd.read_parquet(path)
         else:
             df = pd.read_csv(path)
-        # ensure timestamp is timezone-aware UTC
+        # ensuring timestamp is timezone-aware UTC
         df['timestamp'] = pd.to_datetime(df['timestamp'], utc=True)
         df = df.sort_values('timestamp')
         grouped = df.groupby('timestamp')
@@ -41,6 +40,5 @@ class DataHandler:
             yield int(pd.Timestamp(ts).value//10**6), bars
 
     def stream_live(self):
-        # Minimal placeholder to integrate with broker websockets.
-        # For the purposes of this assignment scaffolding it simply raises NotImplementedError.
+  
         raise NotImplementedError('Connect this to your broker websocket / streaming adapter to stream live data.')
